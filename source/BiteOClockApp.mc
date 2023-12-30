@@ -1,7 +1,9 @@
 import Toybox.Application;
 import Toybox.Lang;
+import Toybox.System;
 import Toybox.WatchUi;
 
+(:background)
 class BiteOClockApp extends Application.AppBase {
 
     function initialize() {
@@ -21,6 +23,10 @@ class BiteOClockApp extends Application.AppBase {
         return [ new BiteOClockView() ] as Array<Views or InputDelegates>;
     }
 
+    (:glance)
+    public function getGlanceView() {
+        return [ new BiteOClockGlanceView() ];
+    }
 }
 
 function getApp() as BiteOClockApp {
