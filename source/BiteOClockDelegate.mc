@@ -4,7 +4,7 @@ import Toybox.WatchUi;
 // (:typecheck(disableBackgroundCheck))
 class BiteOClockDelegate extends WatchUi.BehaviorDelegate {
 
-    function initialize(pomoView as PomoMinView) {
+    function initialize(biteOClockView as BiteOClockView) {
         BehaviorDelegate.initialize();
     }
 

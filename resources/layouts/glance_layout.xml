@@ -1,0 +1,10 @@
+<layout id="GlanceLayout" scope="glance">
+    <!-- First label at the top -->
+    <label id="LabelAppName" x="left" y="20%" text="PomoMin" font="Gfx.FONT_GLANCE" color="Gfx.COLOR_WHITE" />
+
+    <!-- Rectangle below the first label -->
+    <drawable id="GlanceProgressBar" />
+    
+    <!-- Second label to the right of the rectangle -->
+    <label id="LabelGlanceTimer" x="right"  y="50%" text="25:00" font="Gfx.FONT_GLANCE" color="Gfx.COLOR_WHITE" />
+</layout>

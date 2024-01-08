@@ -1,3 +1,7 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+
+    <drawable-list id="GlanceProgressBar" scope="glance">
+        <shape type="rectangle" x="left" y="60%" width="65%" height="10%"  color="Gfx.COLOR_YELLOW" />
+    </drawable-list>
 </drawables>
